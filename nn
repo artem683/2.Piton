@@ -1,0 +1,14 @@
+-5-Python-Control-Flow-Tools-if-elif-else
+# 1 
+n = 0
+a = 18
+b = 65
+c= 19
+h = 100
+if a>n:
+    print ('Вы не совешеннолетний')
+if a<c<b: 
+    print ('Вы трудоспособный человек')    
+if b<h:
+    print ('Вы пенсионер')
+#2

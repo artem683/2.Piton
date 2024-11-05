@@ -24,14 +24,54 @@ if b>a<c:
 if b>c:     
      print ('cкидка 10%')
 #3
-
-
-
-
-
-
-
-
-
-
+f = 7
+b = 9
+g = f+b
+j = f-b
+h = f*b
+n = f/b
+if f+b
+     print('g')
+else:
+     print ('Неверная операция')
+if f-b
+     print('j')
+else:
+     print ('Неверная операция')
+if f*b
+     print('h')
+else:
+     print ('Неверная операция')
+if f/b
+     print ('n')
+else:
+     print ('Неверная операция')
 #4
+b = 15
+if b % 2:
+     print('False')
+else:
+     print('True')
+#5
+r="YTBN"
+t="mmmm"
+if t == r:
+     print ('Доступ разрешен')
+else:
+     print ('Неверный пароль')
+#6
+
+
+
+
+
+
+#7
+
+
+
+
+
+
+
+

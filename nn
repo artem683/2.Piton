@@ -60,18 +60,10 @@ if t == r:
 else:
      print ('Неверный пароль')
 #6
-
-
-
-
-
-
-#7
-
-
-
-
-
-
-
-
+choice = input("> ")
+if choice == "B1" or choice == "B3" or choice == "B7" or choice == "C1" or choice == "C4" or choice == "C5" or choice == "C6" or choice == "C8" or choice == "C9":
+    print('обитает синий попугай')
+elif choice == "B2" or choice =="B4" or choice == "B6" or "B8" or "C2" or "C7" or "C10" or "11":
+    print('обитает зелёный попугай')
+else:
+    print('пустой, на нём никто не сидит')

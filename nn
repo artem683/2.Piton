@@ -67,3 +67,11 @@ elif choice == "B2" or choice =="B4" or choice == "B6" or "B8" or "C2" or "C7" o
     print('обитает зелёный попугай')
 else:
     print('пустой, на нём никто не сидит')
+#7
+#8
+#9
+#10king = "Enemies are coming! Are the archers ready?"
+warrior = "For the Alliance!"
+magician = "The spell is ready."
+if king : warrior : magician ="!"
+       print("есть!" )

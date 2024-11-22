@@ -70,8 +70,43 @@ else:
 #7
 #8
 #9
-#10king = "Enemies are coming! Are the archers ready?"
+inventory = ["яблоко", "шариковая ручка", "ключ", "фонарь"]
+if "фонарь" in inventory and "ключ" in inventory:
+       print("Вы можете пройти через дверь.")
+elif "фонарь" in inventory and "ключ" not in inventory
+       print ("У вас нет фонаря, слишком темно, чтобы пройти")
+ elif"ключ" in inventory and "фонарь" not in inventory
+       print ("У вас нет ключа, вы не можете открыть дверь")
+else:
+ print ("У вас нет ни ключа, ни фонаря, вы не можете пройти через дверь")
+
+#10  
+king = "Enemies are coming! Are the archers ready?"
 warrior = "For the Alliance!"
 magician = "The spell is ready."
-if king : warrior : magician ="!"
-       print("есть!" )
+if king : "!"
+     print ('Enemies are coming[!]')
+elif king = "?"
+     print ('Enemies are coming[!]')
+else:
+     print ('Enemies are coming[.]')
+if king: "!"
+     print('Are the archers ready[!]')
+elif king = "?"
+     print('Are the archers ready[!]')
+else:
+     print('Are the archers ready[.]')
+if warrior : "!"
+     print ('For the Alliance[!]')
+elif warrior = "?"
+     print ('For the Alliance [?]')
+else:
+     print('For the Alliance[.]')
+if magician : "!"
+     print ('The spell is ready[!]')
+elif magician = "?"
+     print ('The spell is ready [?]')
+else:
+     print ('The spell is ready[.]')
+
+           

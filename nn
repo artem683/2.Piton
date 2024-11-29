@@ -109,4 +109,32 @@ elif magician = "?"
 else:
      print ('The spell is ready[.]')
 
-           
+-6-Python-Cycles-for-while
+#1
+names = ["Richard", "Igor", "Jonathan", "Alice","Mary", "Bonnie"]
+for name in names:
+    print(("hello"), (name))
+#2
+phrase = "I'm learning cycles."
+for f in range(10):
+    print(f, phrase)
+#3
+stations = ["Малиновка", "Рябиновка", "Суслово", "Дрожжино", "Звягино"]
+for NameStation in stations:
+    print (NameStation)
+    if NameStation ==("Звягино"):
+      print("Конечная " + NameStation)
+#4
+shop = ["Laptop", "Smartphone", "Watch", "Tablet", "Headphones"]
+for nnn in shop:
+    if nnn == "Laptop":
+        print('I m buying this')
+    else:
+        print('I don t need it')
+#5
+tasks = ["Сдать проект (Важная)", "Сходить в магазин", "Позвонить врачу (Важная)", "Убраться в комнате", "Подготовить отчёт"]
+for index, task in enumerate(tasks):
+    print(f"{index + 1}: {task}")
+
+if task == "(Важная)":
+    print("! " + NameStation)

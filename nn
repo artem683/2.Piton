@@ -135,6 +135,21 @@ for nnn in shop:
 tasks = ["Сдать проект (Важная)", "Сходить в магазин", "Позвонить врачу (Важная)", "Убраться в комнате", "Подготовить отчёт"]
 for index, task in enumerate(tasks):
     print(f"{index + 1}: {task}")
-
 if task == "(Важная)":
-    print("! " + NameStation)
+    print("!" + 1 ,3)
+else:
+    print("  ")
+#6
+p=8
+u=6
+n=15
+print ("Введите колличество чисел:")
+
+print ( "Введите сами числа:")
+print (u)
+print ("Введите сами числа:")
+print(p)
+print ("Введите сами числа:")
+print(n)
+print ("Cумма чисел:")
+print(u+p+n)

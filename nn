@@ -172,7 +172,37 @@ else:
     print("Неправильно")
     print("2 попытки")
 
+class Hero:
+    def __init__(self, name_pers, class_pers, hp_pers, damage_pers):
+        self.name_pers = name
+        self.class_pers = cllass
+        self.hp_pers = hp
+        self.damage_pers = damage
 
+    def print_into(self):
+       print(f"{self.name}\n"
+             f"{self.cllass}\n"
+             f"{self.hp}\n"
+             f"{self.damage}")
+
+
+Hero_1 = Hero(name,"Кот")
+Hero_2 = Hero(name,"Муха")
+Hero_1 = Hero(cllass,"Маг")
+Hero_2 = Hero(cllass,"Персерк")
+Hero_1 = Hero(hp,"200")
+Hero_2 = Hero(hp,"4")
+Hero_1 = Hero(damage,"500")
+Hero_2 = Hero(damage,"20")
+
+go_on_a_trip()
+print("персонаж отправился в путешествие")
+go_back()
+print(" персонаж возвращается назад")
+start_training()
+print(200+50,500+50)
+start_the_battle()
+print("hp 200+50, damage 500+50")
 
 
 

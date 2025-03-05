@@ -204,6 +204,77 @@ print(200+50,500+50)
 start_the_battle()
 print("hp 200+50, damage 500+50")
 
+-10-Python-ООП-Принципы
+import os
+import subprocess
+
+class MinecraftLauncher:
+    def __init__(self, game_folder="C:\\Game\\Minecraft"):
+        self.game_folder = game_folder
+        self.executable = os.path.join(self.game_folder, "MinecraftLauncher.exe")
+
+    def is_game_installed(self):
+        """Проверяет, установлен ли Minecraft в указанной папке"""
+        return os.path.exists(self.executable)
+
+    def launch_game(self):
+        """Запускает Minecraft, если он установлен"""
+        if self.is_game_installed():
+            print("Запуск Minecraft...")
+            subprocess.Popen(self.executable, shell=True)
+        else:
+            print("Ошибка: игра Minecraft не найдена в указанной папке!")
+
+if __name__ == "__main__":
+    launcher = MinecraftLauncher()
+    launcher.launch_game()
+import os
+import subprocess
+
+class gta5 :
+    def __init__(self, game_folder="D:\\Rockstar Game\\GTA V"):
+        self.game_folder = game_folder
+        self.executable = os.path.join(self.game_folder, "GTA5.exe")
+
+    def is_game_installed(self):
+        """Проверяет, установлен ли Minecraft в указанной папке"""
+        return os.path.exists(self.executable)
+
+    def launch_game(self):
+        """Запускает Minecraft, если он установлен"""
+        if self.is_game_installed():
+            print("Запуск gta5...")
+            subprocess.Popen(self.executable, shell=True)
+        else:
+            print("Ошибка: игра gta5 не найдена в указанной папке!")
+
+if __name__ == "__main__":
+    launcher = gta5Launcher()
+    launcher.launch_game()
+import os
+import subprocess
+
+class genshin:
+    def __init__(self, game_folder="C:\\Game\\Genshin Impact"):
+        self.game_folder = game_folder
+        self.executable = os.path.join(self.game_folder, "GenshinImpact.exe")
+    def is_game_installed(self):
+        """Проверяет, установлен ли Minecraft в указанной папке"""
+        return os.path.exists(self.executable)
+
+    def launch_game(self):
+        """Запускает Minecraft, если он установлен"""
+        if self.is_game_installed():
+            print("Запуск genshin...")
+            subprocess.Popen(self.executable, shell=True)
+        else:
+            print("Ошибка: игра genshin не найдена в указанной папке!")
+
+if __name__ == "__main__":
+    launcher = genshinLauncher()
+    launcher.launch_game()
+
+
 
 
 

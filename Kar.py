@@ -50,3 +50,43 @@ l3.get_info()
 l3.upgrade_ram(33)
 l3.se_batteryu(20)
 l3.get_info()
+
+class Cet():
+    def __init__(self,name,color):
+        self.color = color
+        self.name =name
+
+    def meow (self):
+     print(f"{self.color}\n"
+            f"{self.name}\n")
+
+Cet1=Cet("Roginald","red")
+Cet1.meow()
+Cet2=Cet( "Migel","braun")
+Cet2.meow()
+
+class Car():
+    def __init__(self,brand,year):
+        self.brand=brand
+        self. year=year
+    def start (self):
+        print (f"{self.brand}\n"
+            f"{self.year}\n")
+
+Car1=Car("Rols Rois", "1999")
+Car1.start()
+Car2=Car("Chkoda", "2024")
+Car2.start()
+
+class MEN ():
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def introduce (self):
+        print(f"Привет, меня зовут {self.name}, мне {self.age} лет.")
+    def celebrate_birthday (self,old):
+        self.age += old
+        print(f"{ self.name} отпраздновал день рождения! Теперь ему { self.age} лет.")
+MEN1=MEN("Олег",15)
+MEN1.introduce()
+MEN1.celebrate_birthday(2)

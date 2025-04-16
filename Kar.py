@@ -100,12 +100,12 @@ if  e == y:
 else:
     print("Приятно познакомится Andrei")
 if t == x:
-    print("А ещё, у нас одинаковый возраст ")
-elif t != x:
+    print("А ещё, у нас одинаковый возраст")
+else:
     print("Приятно познакомится Andrei")
 if t > x:
     print("Ты старше, чем я")
-if t < x:
+elif t < x:
     print("Ты младше, чем я")
 else:
     print("")

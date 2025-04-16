@@ -93,17 +93,19 @@ MEN1.celebrate_birthday(2)
 
 x=20
 y="Artem"
-t=90
+t=20
 e="Andrei"
 if  e == y:
-    print("У нас одинаковые имена Andrei")
+    print("У нас одинаковые имена ")
 else:
-    print("Приятно познакомится")
+    print("Приятно познакомится Andrei")
 if t == x:
-    print("А ещё, у нас одинаковый возраст Andrei")
+    print("А ещё, у нас одинаковый возраст ")
 elif t != x:
-    print("Приятно познакомится")
+    print("Приятно познакомится Andrei")
 if t > x:
     print("Ты старше, чем я")
-else:
+if t < x:
     print("Ты младше, чем я")
+else:
+    print("")

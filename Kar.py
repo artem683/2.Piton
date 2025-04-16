@@ -90,3 +90,20 @@ class MEN ():
 MEN1=MEN("Олег",15)
 MEN1.introduce()
 MEN1.celebrate_birthday(2)
+
+x=20
+y="Artem"
+t=90
+e="Andrei"
+if  e == y:
+    print("У нас одинаковые имена Andrei")
+else:
+    print("Приятно познакомится")
+if t == x:
+    print("А ещё, у нас одинаковый возраст Andrei")
+elif t != x:
+    print("Приятно познакомится")
+if t > x:
+    print("Ты старше, чем я")
+else:
+    print("Ты младше, чем я")
